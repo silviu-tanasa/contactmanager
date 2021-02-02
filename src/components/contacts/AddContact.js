@@ -9,7 +9,11 @@ class AddContact extends Component {
     name: '',
     email: '',
     phone: '',
-    errors: {}
+    errors: {
+      name: '',
+      email: '',
+      phone: ''
+    }
   };
 
   onSubmit = async (dispatch, e) => {
@@ -47,7 +51,11 @@ class AddContact extends Component {
       name: '',
       email: '',
       phone: '',
-      errors: {}
+      errors: {
+        name: '',
+        email: '',
+        phone: ''
+      }
     });
 
     // Redirect to home

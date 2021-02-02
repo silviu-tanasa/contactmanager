@@ -9,7 +9,11 @@ class EditContact extends Component {
     name: '',
     email: '',
     phone: '',
-    errors: {}
+    errors: {
+      name: '',
+      email: '',
+      phone: ''
+    }
   };
 
   async componentDidMount() {
@@ -61,7 +65,11 @@ class EditContact extends Component {
       name: '',
       email: '',
       phone: '',
-      errors: {}
+      errors: {
+        name: '',
+        email: '',
+        phone: ''
+      }
     });
 
     // Redirect to home
